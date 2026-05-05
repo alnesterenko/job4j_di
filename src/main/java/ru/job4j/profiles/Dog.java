@@ -7,7 +7,8 @@ import org.springframework.stereotype.Component;
 @Profile({"default", "devComponent"})
 public class Dog  {
     private String name = "DogDefault";
-    public Dog() {}
+
+    public Dog() { }
 
     public Dog(String name) {
         this.name = name;

@@ -16,19 +16,19 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework</groupId>
+            <groupId>org.springframework</groupId><!-- фундаментальная база Spring Framework -->
             <artifactId>spring-core</artifactId>
             <version>6.0.10</version>
         </dependency>
 
         <dependency>
-            <groupId>org.springframework</groupId>
+            <groupId>org.springframework</groupId><!-- управление бинами и внедрение зависимостей -->
             <artifactId>spring-beans</artifactId>
             <version>6.0.10</version>
         </dependency>
 
         <dependency>
-            <groupId>org.springframework</groupId>
+            <groupId>org.springframework</groupId><!-- расширенный контекст приложения с дополнительными возможностями -->
             <artifactId>spring-context</artifactId>
             <version>6.0.10</version>
         </dependency>
